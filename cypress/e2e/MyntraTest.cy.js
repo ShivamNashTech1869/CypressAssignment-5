@@ -44,7 +44,7 @@ describe('Validate Mantra.com', () => {
         .should('have.text', 'GO TO BAG')
         .click()
 
-        //Click on  place order button  (is being covered by another element)
+        //Click on  place order button
         cy.get('button[class="css-etguer"]')
         .click({force:true})
         
