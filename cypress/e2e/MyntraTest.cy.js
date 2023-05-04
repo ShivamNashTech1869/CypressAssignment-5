@@ -51,4 +51,4 @@ describe('Validate Mantra.com', () => {
 
       })
 
-})   //div[class="product-imageSliderContainer"]
+}) 
